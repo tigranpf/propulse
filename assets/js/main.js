@@ -54,7 +54,6 @@ const formStructure = {
   submitButtonId: 'form-submit',
   submitButtonClass: 'main-button',
   submitButtonText: 'Send Message',
-  decorationImgSrc: 'assets/images/contact-decoration.png'
 };
 
 const imagesInfo = [
@@ -325,15 +324,6 @@ function createForm(formStructure) {
 
   form.appendChild(buttonFieldset);
 
-  if (formStructure.decorationImgSrc) {
-    const contactDec = document.createElement('div');
-    contactDec.className = 'contact-dec';
-    const contactImg = document.createElement('img');
-    contactImg.src = formStructure.decorationImgSrc;
-    contactImg.alt = '';
-    contactDec.appendChild(contactImg);
-    form.appendChild(contactDec);
-  }
 
   return form;
 }
