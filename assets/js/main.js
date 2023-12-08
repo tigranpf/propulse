@@ -111,11 +111,11 @@ function createContactButton() {
   console.log(url);
   
   const buttonLink = document.createElement('a');
-  if(url == '/author.html'){
+  if(url == '/propulse/author.html'){
     buttonLink.href= 'index.html#contact'
 
   }
-  else if(url == '/index.html' || url == '/'){
+  else if(url == '/propulse/index.html' || url == '/propulse/'){
     buttonLink.href = '#contact';
   }
   buttonLink.textContent = 'Contact Now';
@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
   createNavLinks();
   createContactButton();
 
-  if (url == "/" || url.includes("/index.html")){
+  if (url == "/propulse/" || url.includes("/propulse/index.html")){
   // Contact button on top of the page
   createContactButtonTop();
 
