@@ -76,7 +76,7 @@ function createNavLinks() {
     const listItem = document.createElement('li');
     const aTag = document.createElement('a');
     console.log(url);
-    if(url === '/index.html' || url === '/'){
+    if(url === '/propulse/index.html' || url === '/propulse/'){
     if (!link.name == 'Author'){
     aTag.href = `#${link.id}`;
     }
@@ -84,7 +84,7 @@ function createNavLinks() {
       aTag.href = `${link.id}`
     }
   }
-  if (url == '/author.html'){
+  if (url == '/propulse/author.html'){
     if (link.name == 'Author'){
       aTag.href = `#`;
       }
