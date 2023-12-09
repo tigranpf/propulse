@@ -1339,6 +1339,15 @@ contact
   color: #fff;
 }
 
+#author{
+  margin-top: 150px; 
+}
+
+#author-image{
+  border-radius: 50%;
+  max-width: 75%;
+}
+
 .phone-info h4 span i {
   width: 46px;
   height: 46px;

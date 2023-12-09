@@ -365,7 +365,7 @@ function validateSurname(surname) {
 }
 
 function validateMessage(message) {
-  const messageRegex = /^[A-Za-z0-9.]{10,201}$/;
+  const messageRegex = /^[A-Za-z0-9!?\.]{10,201}$/;
   const isValid = messageRegex.test(message);
   const errorElement = document.getElementById('message-error');
 
